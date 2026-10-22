@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій перший хмарний застосунок</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="eyebrow">ХМАРНІ ОБЧИСЛЕННЯ І ХМАРНІ ПЛАТФОРМИ</p>
+            <h1>Мій перший хмарний застосунок</h1>
+            <p class="subtitle">
+                Вебзастосунок, створений у GitHub Codespaces
+                та опублікований за допомогою GitHub Pages.
+            </p>
+            <a class="hero-link" href="#about">Дізнатися більше ↓</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card" id="about">
+            <h2>Про застосунок</h2>
+            <p>
+                Цей вебзастосунок демонструє використання хмарних
+                технологій для розробки та публікації програмного
+                забезпечення.
+            </p>
+            <p>
+                GitHub зберігає програмний код, GitHub Codespaces
+                надає хмарне середовище розробки, а GitHub Pages
+                дозволяє опублікувати сайт в Інтернеті.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Використані хмарні технології</h2>
+            <div class="technology-grid">
+                <article class="technology">
+                    <span class="number">01</span>
+                    <h3>GitHub</h3>
+                    <p>Зберігання коду, контроль версій та історія змін.</p>
+                </article>
+                <article class="technology">
+                    <span class="number">02</span>
+                    <h3>Codespaces</h3>
+                    <p>Віддалене середовище розробки, доступне через браузер.</p>
+                </article>
+                <article class="technology">
+                    <span class="number">03</span>
+                    <h3>GitHub Pages</h3>
+                    <p>Публікація статичних вебсайтів у мережі Інтернет.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Хмарний сервіс: Microsoft Azure</h2>
+            <p>
+                Microsoft Azure — хмарна платформа, яка надає
+                обчислювальні ресурси, засоби зберігання даних,
+                мережеві можливості та інструменти для розробки
+                й розгортання застосунків.
+            </p>
+            <p>
+                <strong>Моделі послуг:</strong> IaaS, PaaS та SaaS —
+                залежно від конкретного сервісу Azure.
+            </p>
+            <p>
+                <strong>Приклади можливостей:</strong> Azure Virtual
+                Machines для віртуальних машин, Azure App Service
+                для розміщення вебзастосунків і Azure Blob Storage
+                для зберігання об'єктних даних.
+            </p>
+            <a class="service-link"
+               href="https://azure.microsoft.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Офіційний сайт Microsoft Azure ↗
+            </a>
+        </section>
+
+        <section class="card interactive-card">
+            <h2>Перевірка JavaScript</h2>
+            <p>
+                Натисни кнопку, щоб дізнатися, що таке хмарні обчислення.
+            </p>
+            <button id="cloudButton" type="button">
+                Що таке хмарні обчислення?
+            </button>
+            <p id="cloudInfo" class="cloud-info" aria-live="polite"></p>
+        </section>
+
+        <footer>
+            <p>Практична робота № 2 · Комп'ютерні науки</p>
+            <p>Розроблено в хмарному середовищі GitHub Codespaces</p>
+        </footer>
+    </main>
+</body>
+</html>
