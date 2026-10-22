@@ -8,5 +8,5 @@ cloudButton.addEventListener("click", function () {
         "сховища даних і програмне забезпечення без необхідності " +
         "самостійно підтримувати всю інфраструктуру.";
 
-    cloudButton.textContent = "Інформацію показано ✓";
+    cloudButton.textContent = "Інформацію показано успішно ✓";
 });
